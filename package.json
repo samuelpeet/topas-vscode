@@ -1,0 +1,27 @@
+{
+    "name": "topas",
+    "displayName": "Topas",
+    "description": "Syntax highlighting and VSCode integration for Topas monte carlo parameter files",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "icon": "icon.png",
+    "repository": "https://github.com/samuelpeet/topas-vscode",
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "topas",
+            "aliases": ["Topas", "topas"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "topas",
+            "scopeName": "text.topas",
+            "path": "./syntaxes/topas.tmLanguage.json"
+        }]
+    }
+}
