@@ -1,6 +1,10 @@
 {
     "name": "topas",
     "displayName": "Topas",
+    "publisher": "SamuelPeet",
+    "author": {
+		"name": "Samuel Peet"
+	},
     "description": "Syntax highlighting and VSCode integration for Topas monte carlo parameter files",
     "version": "1.0.0",
     "engines": {
