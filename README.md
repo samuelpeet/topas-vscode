@@ -1,6 +1,6 @@
 # Topas Syntax Highlighting
 
-A [Visual Studio Code](https://code.visualstudio.com/) extension to add syntax highlighting to [Topas](www.topasmc.org) monte carlo parameter files.
+A [Visual Studio Code](https://code.visualstudio.com/) extension to add syntax highlighting to [Topas](http://www.topasmc.org) monte carlo parameter files.
 
 The language grammar has been converted from [David C. Hall's](https://github.com/davidchall) [Sublime Text extension](https://github.com/davidchall/topas-syntax).
 
